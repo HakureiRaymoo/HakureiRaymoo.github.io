@@ -1,0 +1,62 @@
+/*有关于字体的设计都在这里修改。*/
+@font-face{
+    font-family: 'hysw';
+    font-display: swap;
+    src: url('../font/HYSW.ttf') format("truetype");
+}
+
+@font-face{
+    font-family: 'GenYoMinTW-Regular';
+    font-display: swap;
+    src: url('../font/GenYoMinTW-Regular.woff') format("woff");
+}
+
+
+@font-face{
+    font-family: 'GenYoMinTW-Bold';
+    font-display: swap;
+    src: url('../font/GenYoMinTW-Bold.woff') format("woff");
+
+}
+
+@font-face{
+    font-family: 'GenYoGothicel';
+    font-display: swap;
+    src: url('../font/GenYoGothic-EL.ttc') format("truetype");
+}
+
+
+h1#site-title {
+    font-family: 'GenYoGothicel','GenYoMinTW-Regular';
+    margin: 0 1em 0 2.5em;
+    letter-spacing: 1.2em;
+
+}
+/*以上是博客的标题部分*/
+
+h1.post-title {
+    font-family: 'hysw','GenYoMinTW-Regular';
+}
+/*以上是文章的标题部分*/
+
+a.article-title {
+    font-family: 'GenYoMinTW-Bold','GenYoMinTW-Regular';
+}
+/*以上是博客主页上显示的每个文章card里的标题部分*/
+
+body {
+    font-family: 'GenYoMinTW-Regular'; 
+}
+/*这是一个比较广的设置，按理说文章部分应该叫article或者article-container*/
+
+span.site-name {
+    font-family: 'GenYoMinTW-Bold','GenYoMinTW-Regular';
+}
+/*博客主页左上角的小标题部分*/
+
+article {
+    font-family: 'GenYoMinTW-Regular'; 
+    font-size: 19px;
+    font-weight: 500;
+}
+/*正文部分*/
